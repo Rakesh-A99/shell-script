@@ -2,7 +2,7 @@
 
 # reading an array 
 
-persons={$1,$2,...,$7}
+persons={$1,$2}
 echo "First Person: ${PERSONS[0]}"
 
-"First Person: ${PERSONS[@]}"
+echo "First Person: ${PERSONS[@]}"
