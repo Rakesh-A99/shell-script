@@ -24,9 +24,7 @@ VALIDATE(){
 if [ $USER_ID -ne 0 ]
 then
     echo "please login with root ID for installation"
-    exit 1
-else
-    echo "your are root user"    
+    exit 1 
 fi
 for i in $@
 do
