@@ -2,7 +2,7 @@
 #author = Rakesh
 #content: installing 3 services
 
-DATE=$(date %F)
+DATE=$(date +%F )
 SCRIPT_NAME=$0
 USER_ID=$(id -u)
 LOGFILE=/tmp/$SCRIPT_NAME-$DATE.log
