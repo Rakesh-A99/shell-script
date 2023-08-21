@@ -35,7 +35,7 @@ do
     then 
         echo "$i is not installed, let's install it"
         yum install $i -y &>>$LOGFILE
-        validate() $? "$i"
+        validate $? "$i"
     else
         echo -e "$Y $i is already installed $N"
     fi
