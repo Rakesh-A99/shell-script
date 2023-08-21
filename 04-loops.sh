@@ -21,9 +21,6 @@ VALIDATE(){
         echo -e "$2 ... $G SUCCESS $N"
     fi
 }
-check(){
-    if 
-}
 if [ $USER_ID -ne 0 ]
 then
     echo "please login with root ID for installation"
